@@ -7,9 +7,10 @@ OcclusionCullingSettings:
   m_OcclusionBakeSettings:
     smallestOccluder: 5
     smallestHole: 0.25
-    backfaceThreshold: 100
-  m_SceneGUID: 00000000000000000000000000000000
-  m_OcclusionCullingData: {fileID: 0}
+    backfaceThreshold: 5
+  m_SceneGUID: cf8af1738c3cb4b488b72c399f7898f8
+  m_OcclusionCullingData: {fileID: 36300000, guid: 528361cd9d17be54b87545e8de740b79,
+    type: 2}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
@@ -299,7 +300,7 @@ PrefabInstance:
     - target: {fileID: 6653453589325725114, guid: 4cbb64337ca003c4d831290a0e9f461e,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6653453589325725116, guid: 4cbb64337ca003c4d831290a0e9f461e,
         type: 3}
@@ -401,7 +402,7 @@ PrefabInstance:
     - target: {fileID: 2729237056595955329, guid: b9c7f73cbb9617a4c82234a257216bbf,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2729237056595955331, guid: b9c7f73cbb9617a4c82234a257216bbf,
         type: 3}
@@ -3838,6 +3839,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1782824342990945115, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: m_RenderingPath
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1782824343720584451, guid: 6ca000ead671ebe449deb210e0a19be8,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6035,7 +6041,7 @@ PrefabInstance:
     - target: {fileID: 2288753979273324617, guid: b79abcb9ee326264694320b336aa66c6,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2288753979273324619, guid: b79abcb9ee326264694320b336aa66c6,
         type: 3}
@@ -6501,7 +6507,7 @@ PrefabInstance:
     - target: {fileID: 6653453589325725114, guid: 4cbb64337ca003c4d831290a0e9f461e,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6653453589325725116, guid: 4cbb64337ca003c4d831290a0e9f461e,
         type: 3}
@@ -10077,7 +10083,7 @@ LightingSettings:
   m_Name: Settings.lighting
   serializedVersion: 3
   m_GIWorkflowMode: 0
-  m_EnableBakedLightmaps: 0
+  m_EnableBakedLightmaps: 1
   m_EnableRealtimeLightmaps: 0
   m_RealtimeEnvironmentLighting: 1
   m_BounceScale: 1
